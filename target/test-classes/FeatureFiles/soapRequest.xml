@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ws="http://ws.eclaims.nathealth.com" xmlns:xsd="http://req.ws.eclaims.nathealth.com/xsd">
+    <soap:Header/>
+    <soap:Body>
+        <ws:registerClient>
+            <ws:registerClient>
+                <xsd:adminKey>test</xsd:adminKey>
+                <xsd:authKey>426d6608-4e36-4405-b59d-a0fb23311f87</xsd:authKey>
+                <xsd:hcpId>172</xsd:hcpId>
+                <xsd:hcpMemberId></xsd:hcpMemberId>
+                <xsd:id>doctor172-33</xsd:id>
+                <xsd:publicKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKJ77Q9MiZCNW2C6Q1W1jB3zLCrCb2E8V4bPK/PQAkSa/mDp+yW42xULm0q9q43MfHxulBUkpvZb/2TO2B2cmC9te1UlhIR6Il5B2RFCQlzDwz43Es7XtIc4yYyBmwzXVdFDMLRV29trfkzbrhSl0QeSrJt0IvfixttpqWFJJhHQIDAQAB</xsd:publicKey>
+                <xsd:versionNo></xsd:versionNo>
+            </ws:registerClient>
+        </ws:registerClient>
+    </soap:Body>
+</soap:Envelope>
